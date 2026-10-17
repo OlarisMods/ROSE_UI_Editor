@@ -1,0 +1,24 @@
+# Line endings are pinned here so they are not guessed per machine.
+#
+# Without this, Git for Windows decides for itself on every clone. It reports
+# files as changed that nobody opened, and it can normalise a real edit away so
+# a file you DID change vanishes from the list. Stating it once ends the guessing.
+
+* text=auto
+
+*.py   text eol=lf
+*.pyw  text eol=lf
+*.md   text eol=lf
+
+# The read-me files are opened in Notepad by Windows users, so they keep
+# Windows line endings.
+*.txt  text eol=crlf
+
+# base/ is the game's own interface, prepared for recolouring. The app copies
+# these files into the game, so they must arrive byte for byte -- a rewritten
+# line ending is a different file. Git leaves everything in base/ alone.
+base/** -text
+*.dds  binary
+*.png  binary
+*.jpg  binary
+*.npy  binary

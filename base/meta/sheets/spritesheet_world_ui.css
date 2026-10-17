@@ -1,0 +1,11 @@
+@spritesheet world-ui-0 {
+    src: /3ddata/control/res/ui10_2.dds;
+    world-target-marker: 238px 437px 16px 14px;
+}
+@spritesheet world-ui-1 {
+    src: /3ddata/control/res/glassui_00.dds;
+    world-quest-1: 1px 301px 43px 43px;
+    world-quest-2: 45px 301px 43px 43px;
+    world-quest-3: 89px 301px 43px 43px;
+    world-quest-4: 133px 301px 43px 43px;
+}

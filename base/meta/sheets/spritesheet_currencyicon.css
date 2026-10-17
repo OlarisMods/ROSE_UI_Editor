@@ -1,0 +1,19 @@
+@spritesheet theme {
+    src: /3ddata/control/res/currencyicon.dds;
+    currencyicon-0: 0px 0px 32px 32px;
+    currencyicon-1: 32px 0px 32px 32px;
+    currencyicon-2: 64px 0px 32px 32px;
+    currencyicon-3: 96px 0px 32px 32px;
+    currencyicon-4: 128px 0px 32px 32px;
+    currencyicon-5: 160px 0px 32px 32px;
+    currencyicon-6: 192px 0px 32px 32px;
+    currencyicon-7: 224px 0px 32px 32px;
+    currencyicon-8: 0px 32px 32px 32px;
+    currencyicon-9: 32px 32px 32px 32px;
+    currencyicon-10: 64px 32px 32px 32px;
+    currencyicon-11: 96px 32px 32px 32px;
+    currencyicon-12: 128px 32px 32px 32px;
+    currencyicon-13: 160px 32px 32px 32px;
+    currencyicon-14: 192px 32px 32px 32px;
+    currencyicon-15: 224px 32px 32px 32px;
+}

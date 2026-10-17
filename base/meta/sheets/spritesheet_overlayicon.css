@@ -1,0 +1,35 @@
+@spritesheet world_emotes_0 {
+    src: /3ddata/control/res/overlayicon.dds;
+    world-emote-0: 0px 0px 75px 75px;
+    world-emote-1: 76px 0px 75px 75px;
+    world-emote-2: 152px 0px 75px 75px;
+    world-emote-3: 228px 0px 75px 75px;
+    world-emote-4: 304px 0px 75px 75px;
+    world-emote-5: 380px 0px 75px 75px;
+    world-emote-6: 0px 76px 75px 75px;
+    world-emote-7: 76px 76px 75px 75px;
+    world-emote-8: 152px 76px 75px 75px;
+    world-emote-9: 228px 76px 75px 75px;
+    world-emote-10: 304px 76px 75px 75px;
+    world-emote-11: 380px 76px 75px 75px;
+    world-emote-12: 0px 152px 75px 75px;
+    world-emote-13: 76px 152px 75px 75px;
+    world-emote-14: 152px 152px 75px 75px;
+    world-emote-15: 228px 152px 75px 75px;
+    world-emote-16: 304px 152px 75px 75px;
+    world-emote-17: 380px 152px 75px 75px;
+    world-emote-18: 0px 228px 75px 75px;
+    world-emote-19: 76px 228px 75px 75px;
+    world-emote-20: 152px 228px 75px 75px;
+    world-emote-21: 228px 228px 75px 75px;
+    world-emote-22: 304px 228px 75px 75px;
+    world-emote-23: 380px 228px 75px 75px;
+    world-emote-24: 0px 304px 75px 75px;
+    world-emote-25: 76px 304px 75px 75px;
+    world-emote-26: 152px 304px 75px 75px;
+    world-emote-27: 228px 304px 75px 75px;
+    world-emote-28: 304px 304px 75px 75px;
+    world-emote-29: 380px 304px 75px 75px;
+    world-emote-30: 0px 380px 75px 75px;
+    world-emote-31: 76px 380px 75px 75px;
+}

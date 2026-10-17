@@ -1,0 +1,129 @@
+@spritesheet theme {
+    src: /3ddata/control/res/elementicon.dds;
+    elementicon-0: 0px 0px 18px 18px;
+    elementicon-1: 19px 0px 18px 18px;
+    elementicon-2: 38px 0px 18px 18px;
+    elementicon-3: 57px 0px 18px 18px;
+    elementicon-4: 76px 0px 18px 18px;
+    elementicon-5: 95px 0px 18px 18px;
+    elementicon-6: 0px 19px 18px 18px;
+    elementicon-7: 19px 19px 18px 18px;
+    elementicon-8: 38px 19px 18px 18px;
+    elementicon-9: 57px 19px 18px 18px;
+    elementicon-10: 76px 19px 18px 18px;
+    elementicon-11: 95px 19px 18px 18px;
+    elementicon-12: 0px 38px 18px 18px;
+    elementicon-13: 19px 38px 18px 18px;
+    elementicon-14: 38px 38px 18px 18px;
+    elementicon-15: 57px 38px 18px 18px;
+    elementicon-16: 76px 38px 18px 18px;
+    elementicon-17: 95px 38px 18px 18px;
+    elementicon-18: 0px 57px 18px 18px;
+    elementicon-19: 19px 57px 18px 18px;
+    elementicon-20: 38px 57px 18px 18px;
+    elementicon-21: 57px 57px 18px 18px;
+    elementicon-22: 76px 57px 18px 18px;
+    elementicon-23: 95px 57px 18px 18px;
+    elementicon-24: 0px 76px 18px 18px;
+    elementicon-25: 19px 76px 18px 18px;
+    elementicon-26: 38px 76px 18px 18px;
+    elementicon-27: 57px 76px 18px 18px;
+    elementicon-28: 76px 76px 18px 18px;
+    elementicon-29: 95px 76px 18px 18px;
+    elementicon-30: 0px 95px 18px 18px;
+    elementicon-31: 19px 95px 18px 18px;
+    elementicon-32: 38px 95px 18px 18px;
+    elementicon-33: 57px 95px 18px 18px;
+    elementicon-34: 76px 95px 18px 18px;
+    elementicon-35: 95px 95px 18px 18px;
+    elementicon-36: 0px 114px 18px 18px;
+    elementicon-37: 19px 114px 18px 18px;
+    elementicon-38: 38px 114px 18px 18px;
+    elementicon-39: 57px 114px 18px 18px;
+    elementicon-40: 76px 114px 37px 18px;
+    elementicon-41: 0px 133px 37px 18px;
+    elementicon-42: 38px 133px 37px 18px;
+    elementicon-43: 76px 133px 37px 18px;
+    elementicon-44: 0px 152px 37px 18px;
+    elementicon-45: 38px 152px 37px 18px;
+    elementicon-46: 76px 152px 37px 18px;
+    elementicon-47: 0px 171px 37px 18px;
+    elementicon-48: 38px 171px 37px 18px;
+    elementicon-49: 76px 171px 37px 18px;
+    elementicon-50: 0px 190px 37px 18px;
+    elementicon-51: 38px 190px 37px 18px;
+    elementicon-52: 76px 190px 37px 18px;
+    elementicon-53: 0px 209px 37px 18px;
+    elementicon-54: 38px 209px 37px 18px;
+    elementicon-55: 76px 209px 37px 18px;
+    elementicon-56: 0px 228px 37px 18px;
+    elementicon-57: 38px 228px 37px 18px;
+    elementicon-58: 76px 228px 37px 18px;
+    elementicon-59: 0px 247px 37px 18px;
+    elementicon-60: 38px 247px 37px 18px;
+    elementicon-61: 76px 247px 37px 18px;
+    elementicon-62: 0px 266px 37px 18px;
+    elementicon-63: 38px 266px 37px 18px;
+    elementicon-64: 76px 266px 37px 18px;
+    elementicon-65: 0px 285px 37px 18px;
+    elementicon-66: 38px 285px 37px 18px;
+    elementicon-67: 76px 285px 37px 18px;
+    elementicon-68: 0px 304px 37px 18px;
+    elementicon-69: 38px 304px 37px 18px;
+    elementicon-70: 76px 304px 37px 18px;
+    elementicon-71: 0px 323px 37px 18px;
+    elementicon-72: 38px 323px 37px 18px;
+    elementicon-73: 76px 323px 37px 18px;
+    elementicon-74: 0px 342px 37px 18px;
+    elementicon-75: 38px 342px 37px 18px;
+    elementicon-76: 76px 342px 37px 18px;
+    elementicon-77: 0px 361px 37px 18px;
+    elementicon-78: 38px 361px 37px 18px;
+    elementicon-79: 76px 361px 37px 18px;
+    elementicon-80: 0px 380px 37px 18px;
+    elementicon-81: 38px 380px 37px 18px;
+    elementicon-82: 76px 380px 37px 18px;
+    elementicon-83: 0px 399px 37px 18px;
+    elementicon-84: 38px 399px 37px 18px;
+    elementicon-85: 76px 399px 37px 18px;
+    elementicon-86: 0px 418px 37px 18px;
+    elementicon-87: 38px 418px 37px 18px;
+    elementicon-88: 76px 418px 37px 18px;
+    elementicon-89: 0px 437px 37px 18px;
+    elementicon-90: 38px 437px 37px 18px;
+    elementicon-91: 76px 437px 37px 18px;
+    elementicon-92: 0px 456px 37px 18px;
+    elementicon-93: 38px 456px 37px 18px;
+    elementicon-94: 76px 456px 37px 18px;
+    elementicon-95: 0px 475px 37px 18px;
+    elementicon-96: 38px 475px 37px 18px;
+    elementicon-97: 76px 475px 37px 18px;
+    elementicon-98: 0px 494px 37px 18px;
+    elementicon-99: 38px 494px 37px 18px;
+    elementicon-100: 76px 494px 37px 18px;
+}
+
+@spritesheet theme {
+    src: /data/ui/themes/rose/imgs/element_icons.dds;
+
+    elementicon-l-0: 4px 10px 78px 73px; /* None */
+
+    elementicon-l-1: 89px 10px 78px 73px; /* Sorcery */
+    elementicon-l-2: 177px 10px 78px 73px; /* Fire */
+    elementicon-l-3: 260px 10px 78px 73px; /* Water */
+    elementicon-l-4: 341px 10px 78px 73px; /* Earth */
+    elementicon-l-5: 423px 10px 78px 73px; /* Wind */
+    elementicon-l-6: 4px 103px 78px 73px; /* Holy */
+    elementicon-l-7: 89px 103px 78px 73px; /* Poison */
+    elementicon-l-8: 177px 103px 78px 73px; /* Ghost */
+}
+
+.elementicon-l-0 { color: #fff; }
+.elementicon-l-1 { color: rgb(150, 200, 220); }
+.elementicon-l-2 { color: rgb(230, 25, 25); }
+.elementicon-l-3 { color: rgb(10, 100, 255); }
+.elementicon-l-4 { color: rgb(100, 50, 0); }
+.elementicon-l-5 { color: rgb(255, 255, 150); }
+.elementicon-l-6 { color: rgb(255, 190, 0); }
+.elementicon-l-7 { color: rgb(255, 128, 255); }
+.elementicon-l-8 { color: rgb(128, 128, 128); }

@@ -1,0 +1,104 @@
+@spritesheet skill_tree_11 {
+    src: /3ddata/control/res/111.dds;
+    SKILL_TREE_111: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_12 {
+    src: /3ddata/control/res/111_onehand.dds;
+    SKILL_TREE_111_ONEHAND: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_13 {
+    src: /3ddata/control/res/111_twohand.dds;
+    SKILL_TREE_111_TWOHAND: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_14 {
+    src: /3ddata/control/res/121.dds;
+    SKILL_TREE_121: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_15 {
+    src: /3ddata/control/res/122.dds;
+    SKILL_TREE_122: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_16 {
+    src: /3ddata/control/res/211.dds;
+    SKILL_TREE_211: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_17 {
+    src: /3ddata/control/res/211_attack.dds;
+    SKILL_TREE_211_ATTACK: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_18 {
+    src: /3ddata/control/res/211_sub.dds;
+    SKILL_TREE_211_SUB: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_19 {
+    src: /3ddata/control/res/221.dds;
+    SKILL_TREE_221: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_20 {
+    src: /3ddata/control/res/222.dds;
+    SKILL_TREE_222: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_21 {
+    src: /3ddata/control/res/311.dds;
+    SKILL_TREE_311: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_22 {
+    src: /3ddata/control/res/311_bow.dds;
+    SKILL_TREE_311_BOW: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_23 {
+    src: /3ddata/control/res/311_meele.dds;
+    SKILL_TREE_311_MEELE: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_24 {
+    src: /3ddata/control/res/321.dds;
+    SKILL_TREE_321: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_25 {
+    src: /3ddata/control/res/322.dds;
+    SKILL_TREE_322: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_26 {
+    src: /3ddata/control/res/411.dds;
+    SKILL_TREE_411: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_27 {
+    src: /3ddata/control/res/411_attack.dds;
+    SKILL_TREE_411_ATTACK: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_28 {
+    src: /3ddata/control/res/411_make.dds;
+    SKILL_TREE_411_MAKE: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_29 {
+    src: /3ddata/control/res/421.dds;
+    SKILL_TREE_421: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_30 {
+    src: /3ddata/control/res/422.dds;
+    SKILL_TREE_422: 0px 0px 375px 320px;
+}
+
+@spritesheet skill_tree_44 {
+    src: /3ddata/control/res/clan_skilltree01.dds;
+    SKILL_TREE_CLAN: 0px 0px 375px 320px;
+}

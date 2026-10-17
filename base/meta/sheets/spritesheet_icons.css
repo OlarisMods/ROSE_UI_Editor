@@ -1,0 +1,189 @@
+@spritesheet theme
+{
+    src: /data/ui/themes/rose/imgs/ui_icon0.dds;
+
+    arrow-icon-down: 9px 153px 16px 12px;
+    arrow-icon-up: 29px 153px 16px 12px;
+
+    warning-icon: 83px 2px 33px 32px;
+    warning-green-icon: 120px 2px 33px 32px;
+    warning-red-icon: 156px 2px 33px 32px;
+    warning-gray-icon: 83px 40px 33px 32px;
+
+    /* Job Icons */
+    job-visitor-icon: 329px 179px 80px 80px;
+
+    job-soldier-m-icon: 1px 179px 80px 80px;
+    job-soldier-f-icon: 1px 261px 80px 80px;
+
+    job-muse-m-icon: 83px 179px 80px 80px;
+    job-muse-f-icon: 83px 261px 80px 80px;
+
+    job-hawker-m-icon: 165px 179px 80px 80px;
+    job-hawker-f-icon: 165px 261px 80px 80px;
+
+    job-dealer-m-icon: 247px 179px 80px 80px;
+    job-dealer-f-icon: 247px 261px 80px 80px;
+
+    /* Duel icons */
+    duel-vs-icon: 199px 94px 53px 26px;
+
+    fire-icon: 121px 40px 32px 32px;
+
+    trash-icon: 52px 149px 13px 17px;
+
+    map-highlight: 13px 351px 51px 45px;
+    fuel-icon: 254px 94px 28px 32px;
+}
+
+@spritesheet theme {
+    src: /3ddata/control/res/OVERLAYICON.dds;
+    timer-clock: 380px 0px 40px 40px;
+    timer-clock-warning: 228px 76px 40px 40px;
+}
+
+@spritesheet theme
+{
+    src: /3ddata/control/res/ui10_2.dds;
+    clan-member-online: 467px 311px 16px 16px;
+    clan-member-offline: 488px 311px 16px 16px;
+    clan-rank-0: 488px 311px 16px 16px;
+    clan-rank-1: 247px 287px 40px 40px;
+    clan-rank-2: 290px 287px 40px 40px;
+    clan-rank-3: 333px 287px 40px 40px;
+    clan-rank-4: 333px 287px 40px 40px;
+    clan-rank-5: 376px 287px 40px 40px;
+    clan-rank-6: 420px 287px 40px 40px;
+    map-party-member: 370px 227px 6px 6px;
+    map-other-avatar: 362px 227px 6px 6px;
+}
+
+span.icon-visitor
+{
+    decorator: image(job-visitor-icon);
+}
+
+span.icon-visitor-flip
+{
+    decorator: image(job-visitor-icon flip-horizontal);
+}
+
+span.icon-soldier
+{
+    decorator: image(job-soldier-m-icon);
+}
+
+span.icon-soldier-flip
+{
+    decorator: image(job-soldier-m-icon flip-horizontal);
+}
+
+.icon-muse
+{
+    decorator: image(job-muse-m-icon);
+}
+
+.icon-muse-flip
+{
+    decorator: image(job-muse-m-icon flip-horizontal);
+}
+
+span.icon-hawker
+{
+    decorator: image(job-hawker-m-icon);
+}
+
+span.icon-hawker-flip
+{
+    decorator: image(job-hawker-m-icon flip-horizontal);
+}
+
+span.icon-dealer
+{
+    decorator: image(job-dealer-m-icon);
+}
+
+span.icon-dealer-flip
+{
+    decorator: image(job-dealer-m-icon flip-horizontal);
+}
+
+icon.error
+{
+    width: 33px;
+    height: 32px;
+    decorator: image(warning-red-icon);
+}
+
+icon.warning
+{
+    width: 33px;
+    height: 32px;
+    decorator: image(warning-icon);
+}
+
+icon.information
+{
+    width: 33px;
+    height: 32px;
+    decorator: image(warning-gray-icon);
+}
+
+icon.waiting
+{
+    width: 33px;
+    height: 32px;
+    decorator: image(warning-green-icon);
+}
+
+icon.arrow-up
+{
+    z-index: 2;
+    margin: 1dp;
+    width: 16px;
+    height: 12px;
+    decorator: image(arrow-icon-up);
+    image-color: rgba(255, 255, 255, 200);
+}
+
+icon.arrow-down
+{
+    z-index: 2;
+    margin: 1dp;
+    width: 16px;
+    height: 12px;
+    decorator: image(arrow-icon-down);
+    image-color: rgba(255, 255, 255, 200);
+}
+
+@spritesheet theme
+{
+    src: /3ddata/control/res/ui00_2.dds;
+    notification-normal: 376px 271px 36px 36px;
+    notification-hover: 415px 271px 36px 36px;
+    notification-pressed: 454px 271px 36px 36px;
+    notification-blink: 454px 309px 36px 36px;
+}
+
+@spritesheet party_controls
+{
+    src: /data/ui/themes/rose/imgs/party_controls.dds;
+    party-entrust-d: 0px 0px 64px 64px;
+    party-kick-d: 64px 0px 64px 64px;
+    party-leave-d: 128px 0px 64px 64px;
+    party-options-d: 192px 0px 64px 64px;
+    party-entrust-n: 0px 64px 64px 64px;
+    party-kick-n: 64px 64px 64px 64px;
+    party-leave-n: 128px 64px 64px 64px;
+    party-options-n: 192px 64px 64px 64px;
+    party-entrust-h: 0px 128px 64px 64px;
+    party-kick-h: 64px 128px 64px 64px;
+    party-leave-h: 128px 128px 64px 64px;
+    party-options-h: 192px 128px 64px 64px;
+}
+
+@spritesheet mall_currency
+{
+    src: /3ddata/control/res/glassui_00.dds;
+    mall-points: 89px 433px 21px 21px;
+}

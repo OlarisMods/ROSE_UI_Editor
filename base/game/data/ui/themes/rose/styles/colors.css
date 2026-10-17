@@ -1,0 +1,173 @@
+/*
+ * Font colors
+ */
+fc_blue { color: rgb(72, 130, 255); }
+fc_crimson { color: rgb(220, 20, 60); }
+fc_darkred { color: rgb(185, 0, 0); }
+fc_red { color: rgb(255, 0, 1); }
+fc_orange { color: rgb(255, 115, 0); }
+fc_lightred { color: rgb(255, 187, 187); }
+fc_cyan { color: rgb(0, 255, 255); }
+fc_gold { color: rgb(255, 217, 0); }
+fc_yellow { color: rgb(255, 255, 0); }
+fc_gray { color: rgb(96, 96, 102); }
+fc_chartreuse { color: rgb(128, 255, 0); }
+fc_green { color: rgb(0, 255, 0); }
+
+/*
+ * Image Colors
+ */
+.imgc-blue { image-color: rgb(0, 0, 255); }
+.imgc-crimson { image-color: rgb(220, 20, 61); }
+.imgc-red { image-color: rgb(255, 1, 0); }
+.imgc-lightred { image-color: rgb(255, 187, 188); }
+.imgc-cyan { image-color:rgb(0, 255, 254); }
+.imgc-yellow { image-color:rgb(255, 255, 1); }
+.imgc-gold { image-color:rgb(255, 217, 1); }
+.imgc-dark-gold { image-color:rgb(209, 178, 0); }
+.imgc-gray { image-color:rgb(96, 96, 102); }
+.imgc-green { image-color:rgb(0, 255, 1); }
+.imgc-dark-green { image-color: rgb(0, 170, 0); }
+.imgc-chartreuse { image-color:rgb(128, 255, 1); }
+
+/* ---- kept from the theme app (pre-patch base): rules it added that the patched file does not have ---- */
+/* was 128,255,0   */
+
+/*
+ * Panel inline-amber overrides  (cascade test)
+ * Out-specify the amber baked into panel .rml <style> blocks by repeating the
+ * class (raises specificity above the inline rule) so a linked sheet can recolor
+ * them without reproducing the whole panel. If this holds, it's the Phase-2 template.
+ */
+.settings-group.settings-group > h3 {
+    color: rgb(226, 226, 236);
+}
+
+.options-panel.options-panel details > summary > summary-text {
+    color: rgb(226, 226, 236);
+}
+
+/* ============================================================
+ * Phase 2 -- panel inline-amber sweep (batch 1)
+ * Higher-specificity overrides for colors baked into panel .rml <style>
+ * blocks. Gold/yellow highlights -> accent violet; semantic sets kept
+ * distinct (harmonized). IDs beaten with an ancestor-ID; classes with a
+ * repeated class; original alpha values preserved.
+ * ============================================================ */
+
+/* --- Game Arena scoreboard --- */
+#scoreboard #headers { color: rgb(226, 226, 236); }
+
+/* was #a855f7 gold */
+.data-row-selected.data-row-selected { background-color: rgba(176, 176, 186, 70); }
+
+/* gold wash */
+.header-val.header-val:hover { color: rgb(246, 246, 252); }
+
+/* was #5af788 gold hover */
+.team-btn-selected.team-btn-selected {
+    border-top: 2dp rgb(176, 176, 186);
+    border-left: 2dp rgb(176, 176, 186);
+    border-right: 2dp rgb(176, 176, 186);
+}
+
+/* was #00b234 */
+
+/* --- Minimap tooltip --- */
+.time-tooltip-label.time-tooltip-label { color: rgb(226, 226, 236); }
+
+/* #90ffb0 info -> cyan */
+
+/* --- Monster inspector --- */
+#game-monster-inspector .header { color: rgb(226, 226, 236); }
+
+/* was #66ff93 */
+.monster-name.monster-name { color: rgb(226, 226, 236); }
+
+/* was #66ff93 */
+
+/* --- Party finder --- */
+.party-owner-name.party-owner-name { color: rgb(226, 226, 236); }
+
+/* was yellow */
+.party-level-range.party-level-range { color: rgb(180, 255, 180); }
+
+/* valid -> mint */
+.invalid-level.invalid-level { color: rgb(255, 180, 180); }
+
+/* invalid -> orchid (wins tie, ordered after valid) */
+tbody.my-party.my-party { background: rgba(176, 176, 186, 80); }
+
+/* gold my-party wash */
+
+/* --- Quest tracker --- */
+#quest-area #tracker-title { color: rgb(226, 226, 236); }
+
+/* was yellow */
+.quest-name.quest-name { color: rgb(226, 226, 236); }
+
+/* was #38ff73 gold (base; type overrides below) */
+.quest-type-hero.quest-type-hero,
+.quest-type-event.quest-type-event { color: rgb(255, 150, 86); }
+
+/* hero/event -> orchid */
+.quest-type-daily.quest-type-daily,
+.quest-type-gamearena.quest-type-gamearena { color: rgb(114, 255, 75); }
+
+/* daily/arena -> mint */
+.quest-type-repeatable.quest-type-repeatable { color: rgb(109, 163, 255); }
+
+/* repeatable -> periwinkle */
+.quest-timer.quest-timer { color: rgb(0, 210, 255); }
+
+/* timer -> cyan */
+.quest-timer-expired.quest-timer-expired { color: rgb(255, 113, 107); }
+
+/* expired -> magenta */
+.quest-item-completed.quest-item-completed { color: rgb(150, 255, 122); }
+
+/* completed -> mint */
+
+/* --- Phase 2 batch 2: character name + stray dialog yellows --- */
+.avatar-name.avatar-name { color: rgb(226, 226, 236); }
+
+/* char name (HUD + char-select) was yellow */
+#game-choice-box #choice-message { color: rgb(226, 226, 236); }
+
+/* NPC choice box, was yellow */
+#game-choice-box #confirm { color: rgb(226, 226, 236); }
+
+/* confirm dialog, was yellow */
+label.rules.rules { color: rgb(226, 226, 236); }
+
+/* arena rules label, was #00ff4a */
+span.sub-title.sub-title { color: rgb(150, 150, 160); }
+
+/* pale-yellow subtitle -> lavender */
+
+/* --- Phase 2: element-type icons (harmonized, all nine kept distinct) --- */
+/* None (l-0 white) and Ghost (l-8 grey) left unchanged */
+
+/* --- Quickbar (skill-bar) slots: translucent violet wash --- */
+.slot-cell.slot-cell { background-color: rgba(176, 176, 186, 70); }
+
+/* --- Quickbar / skill-bar slots: translucent violet glass wash --- */
+body#quickbar cslot.quickbar-slot,
+body#quickbar cslot.quickbar-slot.default {
+    background-color: rgba(176, 176, 186, 70);
+}
+
+/* --- Remaining yellow text: HUD weight/level + selected-tab highlight --- */
+b.weight.weight,
+span.level.level {
+    color: rgb(226, 226, 236);
+}
+
+tab.default.default:selected {
+    color: rgb(226, 226, 236);
+}
+
+/* --- Pale-yellow headers (rgb 255,255,102) -> lavender (blind attempt at char-sheet stat labels) --- */
+.header.header {
+    color: rgb(226, 226, 236);
+}

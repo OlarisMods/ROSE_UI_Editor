@@ -1,0 +1,26 @@
+listbox {
+    display: block;
+}
+
+listbox-item {
+    display: block;
+    padding: 5dp;
+    cursor: hand;
+}
+
+listbox-item:not([disabled])[selected] {
+    background: rgba(176, 176, 186, 80);
+    color: #f6f6fc;
+}
+
+listbox-item:not([disabled]):not([selected]):hover {
+    background: rgba(176, 176, 186, 80);
+}
+
+listbox-item:not([disabled]):hover {
+    color: #f6f6fc;
+}
+
+listbox-item[disabled] {
+    color: #606066;
+}

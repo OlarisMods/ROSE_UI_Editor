@@ -1,0 +1,37 @@
+/* Exact GEN_INVSLOT01..27 rectangles from 3ddata/control/res/ui2.tsi. */
+
+@spritesheet inventory_slots_36 {
+    src: /3ddata/control/res/glassui_01.dds;
+    GEN_INVSLOT01: 1px 1px 43px 43px;
+    GEN_INVSLOT02: 45px 1px 43px 43px;
+    GEN_INVSLOT03: 89px 1px 43px 43px;
+    GEN_INVSLOT04: 133px 1px 43px 43px;
+    GEN_INVSLOT05: 177px 1px 43px 43px;
+    GEN_INVSLOT06: 221px 1px 43px 43px;
+    GEN_INVSLOT07: 265px 1px 43px 43px;
+    GEN_INVSLOT08: 309px 1px 43px 43px;
+    GEN_INVSLOT09: 1px 45px 43px 43px;
+    GEN_INVSLOT10: 45px 45px 43px 43px;
+    GEN_INVSLOT11: 89px 45px 43px 43px;
+    GEN_INVSLOT12: 133px 45px 43px 43px;
+    GEN_INVSLOT13: 177px 45px 43px 43px;
+    GEN_INVSLOT14: 221px 45px 43px 43px;
+    GEN_INVSLOT15: 265px 45px 43px 43px;
+    GEN_INVSLOT16: 309px 45px 43px 43px;
+    GEN_INVSLOT17: 1px 89px 43px 43px;
+    GEN_INVSLOT18: 45px 89px 43px 43px;
+    GEN_INVSLOT19: 89px 89px 43px 43px;
+    GEN_INVSLOT20: 133px 89px 43px 43px;
+    GEN_INVSLOT21: 177px 89px 43px 43px;
+    GEN_INVSLOT22: 221px 89px 43px 43px;
+    GEN_INVSLOT23: 1px 133px 43px 43px;
+    GEN_INVSLOT24: 45px 133px 43px 43px;
+    GEN_INVSLOT25: 89px 133px 43px 43px;
+    GEN_INVSLOT26: 133px 133px 43px 43px;
+    GEN_INVSLOT27: 177px 133px 43px 43px;
+}
+
+@spritesheet inventory-resources {
+    src: /3ddata/control/res/glassui_00.dds;
+    inventory-weight: 133px 257px 21px 21px;
+}

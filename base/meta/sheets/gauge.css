@@ -1,0 +1,171 @@
+gauge>span,
+progress>span {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-weight: 800;
+    font-effect: outline(1dp black), shadow(2dp 2dp black);
+}
+
+/* Glow W: small, H: small */
+gauge.horizontal-glow-sm-sm,
+progress.horizontal-glow-sm-sm {
+    decorator: image(glowgauge-bg-sm-sm);
+    width: 103dp;
+    height: 16dp;
+    position: relative;
+}
+
+gauge.horizontal-glow-sm-sm.blue,
+progress.horizontal-glow-sm-sm.blue {
+    decorator: image(glowgauge-blue-sm-sm);
+    margin: -5dp;
+    position: relative;
+}
+
+/* W: small, H: medium */
+gauge.horizontal-sm-md,
+progress.horizontal-sm-md {
+    decorator: image(gauge-bg-sm-md);
+    width: 99dp;
+    height: 11dp;
+    position: relative;
+}
+
+gauge.horizontal-sm-md.green,
+progress.horizontal-sm-md.green {
+    fill-image: gauge-green-sm-md;
+}
+
+gauge.horizontal-sm-md>span,
+progress.horizontal-sm-md>span {
+    font-size: 12dp;
+    font-weight: 700;
+    margin-top: -1.5dp;
+}
+
+/* W: small, H: small */
+gauge.horizontal-sm-sm,
+progress.horizontal-sm-sm {
+    decorator: image(gauge-bg-sm-sm);
+    width: 99dp;
+    height: 4dp;
+    position: relative;
+}
+
+/* Out Glow W: small, H: large */
+gauge.horizontal-glow-sm-lg,
+progress.horizontal-glow-sm-lg {
+    decorator: image(glowgauge-bg-sm-lg);
+    width: 104dp;
+    height: 29dp;
+    position: relative;
+}
+
+gauge.horizontal-glow-sm-lg>span,
+progress.horizontal-glow-sm-lg>span {
+    font-size: 14dp;
+    font-weight: 1000;
+    margin-top: 5dp;
+}
+
+/* Out Glow W: large, H: small */
+gauge.horizontal-glow-lg-sm,
+progress.horizontal-glow-lg-sm {
+    decorator: image(glowgauge-bg-lg-sm);
+    width: 223dp;
+    height: 13dp;
+    position: relative;
+}
+
+/* Out Glow W: small, H: small */
+gauge.horizontal-glow-sm-sm,
+progress.horizontal-glow-sm-sm {
+    decorator: image(glowgauge-bg-sm-sm);
+    width: 104dp;
+    height: 16dp;
+    position: relative;
+}
+
+gauge.horizontal-sm-md.pink,
+progress.horizontal-sm-md.pink {
+    fill-image: gauge-pink-sm-md;
+}
+
+gauge.horizontal-sm-md.red,
+progress.horizontal-sm-md.red {
+    fill-image: gauge-red-sm-md;
+}
+
+gauge.horizontal-glow-sm-lg.red,
+progress.horizontal-glow-sm-lg.red {
+    fill-image: glowgauge-red-sm-lg;
+}
+
+gauge.horizontal-glow-sm-lg.green,
+progress.horizontal-glow-sm-lg.green {
+    fill-image: glowgauge-green-sm-lg;
+}
+
+gauge.horizontal-sm-sm.red,
+progress.horizontal-sm-sm.red {
+    fill-image: gauge-red-sm-sm;
+}
+
+gauge.horizontal-sm-sm.blue,
+progress.horizontal-sm-sm.blue {
+    fill-image: gauge-blue-sm-sm;
+}
+
+gauge.horizontal-sm-sm.purple fill,
+progress.horizontal-sm-sm.purple fill {
+    fill-image: gauge-purple-sm-sm;
+}
+
+gauge.horizonta-lg-sm.blue fill,
+progress.horizonta-lg-sm.blue fill {
+    fill-image: gauge-blue-lg-sm;
+}
+
+gauge.horizontal-glow-lg-sm.blue fill,
+progress.horizontal-glow-lg-sm.blue fill {
+    fill-image: glowgauge-blue-lg-sm;
+}
+
+/* Gauge Width: large, Height: small */
+gauge.horizontal-sm-lg,
+progress.horizontal-sm-lg {
+    height: 9dp;
+    font-size: 9dp;
+    position: relative;
+}
+
+gauge.horizontal-sm-lg.yellow,
+progress.horizontal-sm-lg.yellow {
+    width: 185dp;
+    font-size: 12dp;
+    decorator: image(gauge-bg-sm-lg-yellow);
+    fill-image: gauge-sm-lg-yellow;
+}
+
+/* Gauge Width: large, Height: large */
+gauge.horizontal-lg-lg,
+progress.horizontal-lg-lg {
+    width: 185dp;
+    height: 26dp;
+    position: relative;
+    font-size: 12dp;
+}
+
+gauge.horizontal-lg-lg.red,
+progress.horizontal-lg-lg.red {
+    decorator: image(gauge-bg-lg-lg-red);
+    fill-image: gauge-lg-lg-red;
+}
+
+gauge.horizontal-lg-lg.blue,
+progress.horizontal-lg-lg.blue {
+    decorator: image(gauge-bg-lg-lg-blue);
+    fill-image: gauge-lg-lg-blue;
+}

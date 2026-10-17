@@ -1,0 +1,93 @@
+====================================================================
+  ROSE UI EDITOR -- your ROSE Online interface, in your colours
+====================================================================
+
+  Double-click "ROSE UI Editor.pyw".  Three steps: find the game, pick two
+  colours, apply.
+
+  (For now this needs Python 3 from python.org -- tick "tcl/tk" if the
+  installer asks, it usually does it for you. A one-file version for
+  everyone is planned.)
+
+
+  UPDATED FOR THE 16 OCTOBER 2026 PATCH. Themes are built on the
+  patched interface, and now also colour the equipment slots, the
+  chat tabs and the new party buttons. Applying a theme also clears
+  out a file older UI packs left behind, which would otherwise hide
+  the patch's new icons -- Undo puts it back if you ever want it.
+
+
+--------------------------------------------------------------------
+THE THREE STEPS
+--------------------------------------------------------------------
+1  YOUR GAME     It looks in the usual places. If it doesn't find ROSE,
+                 use Browse and pick the folder with trose.exe in it.
+
+2  YOUR COLOURS  Main   -- panels, glass and frames
+                 Accent -- edges, highlights and text
+                 Click a colour to open the picker; the preview follows as
+                 you drag, and Cancel puts the old colour back.
+
+                 Or press "Surprise me" for a matched pair. Every surprise
+                 has a SEED -- a word like "ember" or "tidepool". Type any
+                 word, name or number as a seed and press Use: the same seed
+                 always gives the same theme, so "pumpkin" is always
+                 pumpkin. Share the word, and anyone gets your colours.
+
+                 The released themes are seeds too: type void, crimson,
+                 moldie or ancient for their colours.
+
+                 Health and mana bars:
+                   Classic         red and blue, as always
+                   Match my theme  health takes your main, mana your accent
+
+                 Chat colours:
+                   Classic         the game's own channel colours
+                   Match my theme  every channel in colours that suit your
+                                   theme -- always readable, always different
+                                   from each other
+
+3  APPLY         Close ROSE first. Then Apply, and start the game.
+
+
+--------------------------------------------------------------------
+WHAT NEVER CHANGES
+--------------------------------------------------------------------
+Some colours MEAN something, and no theme touches them:
+    staff names, error messages, quest types, the low-health flash, the
+    good / bad / caution colours in tooltips, and every class's own buff
+    colour. Chat channels keep the game's own colours unless you choose
+    Match -- and even then they are kept well clear of every staff colour,
+    so no player's name can look like a GM's.
+
+If you pick two colours so close that health and mana would look alike,
+the app says so and won't apply until you change one.
+
+
+--------------------------------------------------------------------
+UNDO AND REMOVE -- NOTHING IS EVER LOST
+--------------------------------------------------------------------
+Before it changes anything, the app copies every file it is about to
+replace into its own folder, and writes down every file it adds:
+
+    C:\Users\<you>\AppData\Local\ROSE Theme\
+
+    (Still named "ROSE Theme", the app's old name, so backups made by
+    earlier versions keep working with Undo and Remove.)
+
+    Undo last change   back to how things were before your last Apply
+    Remove theme       back to how things were before this app EVER
+                       touched the game -- including any other mods
+                       you had installed
+
+If the app is ever interrupted mid-apply -- a crash, a power cut -- it
+puts the game folder back the next time you open it.
+
+
+--------------------------------------------------------------------
+IF SOMETHING GOES WRONG
+--------------------------------------------------------------------
+"ROSE is running"         close the game, then try again
+"won't let this app write" run the app as administrator
+Anything else              the message says what happened; nothing is
+                           changed unless Apply finishes
